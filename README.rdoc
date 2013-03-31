@@ -1,4 +1,4 @@
-RoR Tutorialsample_app
+RoR Tutorial sample_app
 ======================
 
 README.rdoc file
