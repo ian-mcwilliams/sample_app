@@ -1,4 +1,4 @@
 RoR Tutorialsample_app
 ======================
 
-README.rdoc file
+README.md file
