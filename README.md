@@ -1,4 +1,4 @@
 RoR Tutorial sample_app
 ======================
 
-README.md file
+README.md file sub dir
