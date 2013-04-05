@@ -6,11 +6,12 @@ require 'spec_helper'
     
         it "should have the h1 'Sample App' " do
           visit '/static_pages/home'
-          page.should have_content ('Sample App')
+          page.should have_selector ('h1', :text => 'Sample App')
     end
         it "should have the title 'Ruby on Rails Tutorial Sample App | Home' " do
           visit '/static_pages/home'
-          page.should have_content ('Ruby on Rails Tutorial Sample App | Home')
+          page.should have_selector ('title',
+                           :text => 'Ruby on Rails Tutorial Sample App | Home')
 
     end
   end 
