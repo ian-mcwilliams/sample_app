@@ -40,7 +40,7 @@ require 'spec_helper'
 
        it "should have the title 'About Us' " do
           visit '/static_pages/about'
-          page.should have_selector (
+          page.should have_content (
                                'Ruby on Rails Tutorial Sample App | About Us')
 
     end
