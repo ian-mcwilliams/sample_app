@@ -35,7 +35,7 @@ require 'spec_helper'
 
          it "should have the h1 'About Us' " do
           visit '/static_pages/about'
-          page.should have_content ('Ruby on Rails Tutorial Sample App | About Us')
+          page.should have_content ('About Us')
     end
 
        it "should have the title 'About Us' " do
