@@ -6,6 +6,7 @@ group :development do
 
 	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails', '2.9.0'
+	gem 'capybara', '2.0.3'
 end
 
 # Gems used only for assets and not required
