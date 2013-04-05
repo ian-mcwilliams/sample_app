@@ -21,7 +21,7 @@ have the title 'Home' " do
 
         it "should have the h1 'Help' " do
           visit '/static_pages/help'
-          page.should have_selector ('h1', text: => 'Help')
+          page.should have_content (Help')
     end
 
        it "should have the title 'Help' " do
@@ -36,7 +36,7 @@ have the title 'Home' " do
 
          it "should have the h1 'About Us' " do
           visit '/static_pages/about'
-          page.should have_selector ('h1', text: => 'About Us')
+          page.should have_content ('About Us')
     end
 
        it "should have the title 'About Us' " do
