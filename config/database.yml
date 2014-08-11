@@ -4,7 +4,7 @@ development:
   username: F3M3
   database: F3M3
 
-test:
+test: &test
   adapter: postgresql
   host: localhost
   username: F3M3
@@ -24,3 +24,6 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+
+cucumber:
+  <<: *test
